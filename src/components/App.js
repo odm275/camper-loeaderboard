@@ -18,7 +18,6 @@ class App extends Component {
     }
     this.fetchData = this.fetchData.bind(this);
   }
-
   fetchData(type, url){
    //fetch data into an object
    fetch(url)
@@ -63,7 +62,8 @@ class App extends Component {
     //console.log(this.state);
     return(
       <div>
-        <TOPMONTH fetch={this.state}/>
+        <div>
+        </div>
       </div>
     )
   }
